@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageNotFoundComponent } from './page-not-found.component';
+import { CountDownComponent } from './count-down.component';
 
-describe('ErrorComponent', () => {
-  let component: PageNotFoundComponent;
-  let fixture: ComponentFixture<PageNotFoundComponent>;
+describe('CountDownComponent', () => {
+  let component: CountDownComponent;
+  let fixture: ComponentFixture<CountDownComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PageNotFoundComponent ]
+      declarations: [ CountDownComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PageNotFoundComponent);
+    fixture = TestBed.createComponent(CountDownComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

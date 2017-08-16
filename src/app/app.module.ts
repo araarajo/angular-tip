@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './components/error/page-not-found.component';
 import { RootRouter } from './app.routes';
 import { HomeModule } from './containers/home/home.module';
+import { CountDownComponent } from './containers/count-down/count-down.component';
 
 @NgModule({
   declarations: [
